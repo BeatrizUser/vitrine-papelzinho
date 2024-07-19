@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+.btn-papelzinho {
+    background-color: #FE4E39;
+    color: #fff;
+}
+.btn-papelzinho:hover {
+    background-color: #fff;
+    border-color: #FE4E39;
+    border-width: 1px;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+    color: #FE4E39;
+}
+
+.txt-papelzinho {
+    color: #fff;
+}
+.bg-papelzinho {
+    background-color: #FE4E39;
+}
+.link-papelzinho {
+    color: #161616;
+    margin: 8px;
+    font-weight: 600;
+}
+.link-papelzinho-active {
+    color: #FE4E39;
+}
+.link-papelzinho:hover {
+    color: #FE4E39;
+    opacity: 0.8;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+}

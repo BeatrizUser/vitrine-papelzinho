@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Nintendo Switch",
+        "description": "Descrição breve do Nintendo Switch.",
+        "image": "https://m.media-amazon.com/images/I/51ZjnGIOXDL._AC_SL1020_.jpg",
+        "detailsPage": "pages/produto.html",
+        "storeLink": "https://pt.aliexpress.com/item/1005006859358392.html?aff_fcid=a3b0c5d4038340a9a998229df219c033-1721401357406-04863-_DEUVrcf&tt=CPS_NORMAL&aff_fsk=_DEUVrcf&aff_platform=shareComponent-detail&sk=_DEUVrcf&aff_trace_key=a3b0c5d4038340a9a998229df219c033-1721401357406-04863-_DEUVrcf&terminal_id=4d7bdc0ce99e478dad9a92a3adb6cf59&afSmartRedirect=y"
+    },
+    {
+        "id": 2,
+        "name": "Uno Minimalista",
+        "description": "Descrição breve do Uno Minimalista.",
+        "image": "https://m.media-amazon.com/images/I/61v6Eyf411L._AC_SX425_.jpg",
+        "detailsPage": "pages/produto.html",
+        "storeLink": "https://www.amazon.com.br/Mattel-GYH69-UNO-MINIMALISTA-Black/dp/B089DR3N7S?pd_rd_w=BOqjC&content-id=amzn1.sym.caf1cea9-5b35-4981-8927-1c1c720558b8&pf_rd_p=caf1cea9-5b35-4981-8927-1c1c720558b8&pf_rd_r=7XSJEZFKJ804BQV86RGQ&pd_rd_wg=x5shc&pd_rd_r=8ebdb70e-63b3-429d-835c-17784b3a61ed&pd_rd_i=B089DR3N7S&linkCode=sl1&tag=papelzinho-20&linkId=3ae8fa1899fb4732689caf7d20515e2f&language=pt_BR&ref_=as_li_ss_tl"
+    },
+    {
+        "id": 3,
+        "name": "Joelheira Articulada Reforçada",
+        "description": "Descrição breve do Joelheira Articulada Reforçada.",
+        "image": "https://down-br.img.susercontent.com/file/br-11134207-7qukw-li7j33yoebhs1b",
+        "detailsPage": "pages/produto.html",
+        "storeLink": "https://shopee.com.br/Joelheira-Articulada-Refor%C3%A7ada-Ortopedica-Neoprene-Crossfit-Ajust%C3%A1vel-Preta-i.539989319.16620270928?uls_trackid=50a60a9o0070&utm_campaign=-&utm_content=16----&utm_medium=affiliates&utm_source=an_18165140001&utm_term=bgs64bbcrqj5&xptdk=6ade1951-798a-4f2c-838c-361cd5294861"
+    }
+]

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Detalhes do Produto</h1>
+    </header>
+    <main class="container my-4">
+        <div class="card" id="product-detail">
+            <!-- Detalhes do produto serão carregados aqui -->
+        </div>
+    </main>
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Minha Loja</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = urlParams.get('id');
+
+            fetch('products.json')
+                .then(response => response.json())
+                .then(data => {
+                    const product = data.find(p => p.id == productId);
+                    if (product) {
+                        document.getElementById('product-detail').innerHTML = `
+                            <img src="${product.image}" class="card-img-top" alt="${product.name}">
+                            <div class="card-body">
+                                <h5 class="card-title">${product.name}</h5>
+                                <p class="card-text">${product.description}</p>
+                                <a href="${product.storeLink}" class="btn btn-primary" target="_blank">Comprar Agora</a>
+                            </div>
+                        `;
+                    } else {
+                        document.getElementById('product-detail').innerHTML = '<p>Produto não encontrado.</p>';
+                    }
+                })
+                .catch(error => console.error('Erro ao carregar detalhes do produto:', error));
+        });
+    </script>
+</body>
+</html>
