@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const data = "data/produtos.json";
     fetch(data)
         .then(response => response.json())
@@ -6,16 +6,23 @@ document.addEventListener("DOMContentLoaded", function() {
             const productList = document.getElementById('product-list');
             data.forEach(product => {
                 const productCard = `
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 text-center">
                             <img src="${product.image}" class="card-img-top" alt="${product.name}">
-                            <div class="card-body">
-                                <h5 class="card-title">${product.name}</h5>
-                                <p class="card-text">${product.description}</p>
-                                <a href="${product.detailsPage}" class="btn btn-papelzinho">Ver Detalhes</a>
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <h5 class="card-title text-titlecard">${product.name}</h5>
+                                    <p class="card-text text-descriptioncard">${product.description}</p>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                        <a href="${product.storeLink}" class="btn btn-papelzinho mt-auto">Ir para a Loja</a>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
+
                 `;
                 productList.innerHTML += productCard;
             });

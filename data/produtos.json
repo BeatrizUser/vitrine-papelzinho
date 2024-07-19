@@ -2,10 +2,10 @@
     {
         "id": 1,
         "name": "Nintendo Switch",
-        "description": "Descrição breve do Nintendo Switch.",
+        "description": "Surpreenda seu amigo oculto com o incrível Nintendo Switch! Um console versátil que combina diversão e inovação, perfeito para todas as idades.",
         "image": "https://m.media-amazon.com/images/I/51ZjnGIOXDL._AC_SL1020_.jpg",
         "detailsPage": "pages/produto.html",
-        "storeLink": "https://pt.aliexpress.com/item/1005006859358392.html?aff_fcid=a3b0c5d4038340a9a998229df219c033-1721401357406-04863-_DEUVrcf&tt=CPS_NORMAL&aff_fsk=_DEUVrcf&aff_platform=shareComponent-detail&sk=_DEUVrcf&aff_trace_key=a3b0c5d4038340a9a998229df219c033-1721401357406-04863-_DEUVrcf&terminal_id=4d7bdc0ce99e478dad9a92a3adb6cf59&afSmartRedirect=y"
+        "storeLink": "https://www.amazon.com.br/Console-Nintendo-Switch-Azul-Vermelho/dp/B0C3DZXD5L?_encoding=UTF8&pd_rd_w=AtmuA&content-id=amzn1.sym.7841c6e8-7701-4346-bc76-d8e2fea7e24f&pf_rd_p=7841c6e8-7701-4346-bc76-d8e2fea7e24f&pf_rd_r=929EXQN9RE5TVVY1ZXHG&pd_rd_wg=USJBc&pd_rd_r=ee060a48-01b1-4c77-8a61-f05dd80d850e&linkCode=sl1&tag=papelzinho-20&linkId=c092843f461ae5a1f467061f4d564bb1&language=pt_BR&ref_=as_li_ss_tl"
     },
     {
         "id": 2,

@@ -6,54 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vitrine de Produtos</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgDpCVUpjsJJlLnY8HGtYHjq2lb7gG3yjwhJIMp8I4Q6YHRwZI" crossorigin="anonymous"></script>
 </head>
-
 <body class="d-flex flex-column min-vh-100">
-    <div class="container-fluid ">
-        <nav class="navbar navbar-expand-xl navbar-light bg-none" aria-label="Sixth navbar example">
-            <a class="navbar-brand" href="#">
-                <img src="assets/logoSmall.png" alt="" width="50" height="58" class="d-inline-block align-text-top">
-            </a>
+    <div class="container-fluid">
+        <!-- NAVBAR -->
+        <section class="navbar-nav">
+            <nav class="navbar navbar-expand-sm navbar-light bg-none" aria-label="Sixth navbar example">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/logoSmall.png" alt="" width="50" height="58" class="d-inline-block align-text-top">
+                </a>
 
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <div class="collapse navbar-collapse justify-content-md-center" id="navbar">
-                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-                        <li class="nav-item">
-                            <a class="link-papelzinho" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="link-papelzinho" href="#">Produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="link-papelzinho link-papelzinho-active" href="#">FAQ</a>
-                        </li>
-                    </ul>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbar">
+                        <ul class="navbar-nav me-auto mb-2">
+                            <li class="nav-item">
+                                <a class="link-papelzinho" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link-papelzinho" href="#">Produtos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link-papelzinho link-papelzinho-active" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="d-flex">
+                        <button class="btn btn-papelzinho" type="submit">Download App</button>
+                    </form>
                 </div>
-                <form class="d-flex">
-                    <button class="btn btn-papelzinho" type="submit">Download App</button>
-                </form>
-            </div>
-
+            </nav>
+        </section>
     </div>
-    </nav>
+    <!-- CAROUSEL -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="assets/promo.png" class="d-block w-100" alt="...">
+          </div>
+          <!-- <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div> -->
+        </div>
+      </div>
+    <!-- CAROUSEL -->
+
+    <!-- LISTA DE PRODUTOS -->
     <main class="container my-4 flex-fill">
         <div class="row" id="product-list">
             <!-- Produtos serão carregados aqui -->
         </div>
     </main>
+
+    <!-- FOOTER -->
     <footer class="py-3 mt-auto bg-papelzinho txt-papelzinho">
         <div class="container">
             <div class="row">
@@ -68,9 +84,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <script src="src/script.js"></script>
 </body>
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 body {
     font-family: "Inter", sans-serif;
 }
@@ -16,10 +17,13 @@ body {
     margin: 0;
     background-color: #f1f1f1;
 }
+
 .btn-papelzinho {
     background-color: #FE4E39;
     color: #fff;
+    width: fit-content;
 }
+
 .btn-papelzinho:hover {
     background-color: #fff;
     border-color: #FE4E39;
@@ -31,21 +35,52 @@ body {
 .txt-papelzinho {
     color: #fff;
 }
+
 .bg-papelzinho {
     background-color: #FE4E39;
 }
+
 .link-papelzinho {
     color: #161616;
     margin: 8px;
     font-weight: 600;
 }
+
 .link-papelzinho-active {
     color: #FE4E39;
 }
+
 .link-papelzinho:hover {
     color: #FE4E39;
     opacity: 0.8;
     text-decoration: none;
     transition: all 0.5s ease;
 
+}
+
+.card {
+    max-width: auto;
+    height: 90%;
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+}
+.card-body{
+    padding: 10px;
+}
+
+.text-descriptioncard {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Número de linhas a serem exibidas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 10px;
+    text-align: left;
+}
+.text-titlecard {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
 }
