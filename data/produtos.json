@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Mini Video Game Portátil Sup C/ 400 jogos",
-        "description": "descricao",
+        "description": "Divirta-se com este mini video game portátil que vem com 400 jogos clássicos. Ideal para quem ama nostalgia e quer se entreter em qualquer lugar.",
         "image": "https://down-br.img.susercontent.com/file/84341a9fc3f7a2dc66a57a87899cb2bd",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/6zzpb9q9UN"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Lâmpada Ventilador de teto",
-        "description": "descricao",
+        "description": "Prática e eficiente, esta lâmpada ventilador combina iluminação e ventilação em um único aparelho, ideal para manter o ambiente fresco e bem iluminado.",
         "image": "https://down-br.img.susercontent.com/file/sg-11134202-7rd6t-lvv0tqm5tc8rc3",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/40ME1ivZ8n"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Garrafa De Água Com Suporte Telefônico Magnético",
-        "description": "descricao",
+        "description": "Mantenha-se hidratado e aproveite a conveniência de ter seu telefone sempre à vista com esta garrafa de água que inclui um suporte magnético para celulares.",
         "image": "https://down-br.img.susercontent.com/file/cn-11134207-7r98o-lsr40mj2wli592",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/7AJFndgfsO"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Bolinha Voadora",
-        "description": "descricao",
+        "description": "Um brinquedo divertido que proporciona horas de entretenimento. Perfeita para brincar em casa ou ao ar livre, esta bolinha voadora vai surpreender todos.",
         "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lv256n2grqnd6d",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/6pgM990tDK"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "Mini Liquidificador Portátil",
-        "description": "descricao",
+        "description": "Ideal para preparar smoothies e shakes a qualquer hora e em qualquer lugar. Compacto e fácil de usar, este mini liquidificador é perfeito para uma vida saudável.",
         "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98r-llmij8jiftdm19",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/8pRVY52aHL"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "name": "Isqueiro USB Recarregável eletrônico",
-        "description": "descricao",
+        "description": "Acenda seu fogo de maneira prática e ecológica com este isqueiro USB recarregável. Sem necessidade de combustível, é fácil de carregar e usar.",
         "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lnhbwc49qropf5",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/7fFYA7TOQI"
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "name": "Espremedor Elétrico Laranja",
-        "description": "descricao",
+        "description": "Prepare sucos frescos e deliciosos com este espremedor elétrico de laranja. Rápido e eficiente, ele extrai o máximo de suco com pouco esforço.",
         "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lnxq5uosgqpzd3",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/50EmzK0yAC"
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "name": "Ferro De Passar Roupas Para Viagem",
-        "description": "descricao",
+        "description": "Mantenha suas roupas impecáveis durante suas viagens com este ferro de passar compacto e eficiente, que é fácil de transportar e usar.",
         "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98r-lm7kogjunu4741",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/qPE1mMwOP"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "name": "Mini Barbeador Elétrico Portátil",
-        "description": "descricao",
+        "description": "Prático e discreto, este mini barbeador elétrico é ideal para retoques rápidos e viagens, garantindo que você esteja sempre bem cuidado.",
         "image": "https://down-br.img.susercontent.com/file/sg-11134201-7rcco-lsbnkm6w0xtn1c",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/9A4LxCJah0"
@@ -74,7 +74,7 @@
     {
         "id": 10,
         "name": "Ventilador Refrigerador Ar Condicionado",
-        "description": "descricao",
+        "description": "Este ventilador versátil oferece alívio em dias quentes, com a opção de resfriamento adicional para um conforto máximo.",
         "image": "https://down-br.img.susercontent.com/file/sg-11134201-7rd50-lty4mie1hycc30",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/8pRVYgvtcQ"
@@ -82,7 +82,7 @@
     {
         "id": 11,
         "name": "Aspirador e Soprador Portátil 5 em 1",
-        "description": "descricao",
+        "description": "Versátil e potente, este aspirador e soprador portátil é ideal para diversas tarefas de limpeza e manutenção ao seu redor.",
         "image": "https://down-br.img.susercontent.com/file/sg-11134201-7rd44-lwek28t4ryp887",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/2VXS1ALiUh"
@@ -90,17 +90,9 @@
     {
         "id": 12,
         "name": "Cozedor Elétrico A Vapor Ovos",
-        "description": "descricao",
+        "description": "Cozinhe ovos perfeitamente com este cozedor elétrico a vapor, que proporciona uma maneira fácil e prática de preparar ovos para suas refeições.",
         "image": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lod2nr57qo1zce",
         "detailsPage": "pages/produto.html",
         "storeLink": "https://s.shopee.com.br/8pRVZ3RE2L"
-    },
-    {
-        "id": 13,
-        "name": "Bomba De Ar Recarregável",
-        "description": "descricao",
-        "image": "https://ae01.alicdn.com/kf/S119ffbbd796e4774bf125d37dd19845cB/CARSUN-Bomba-De-Ar-Recarreg-vel-Inflator-Pneu-Port-til-Compressor-Digital-Sem-Fio-Carro-Motocicleta.jpg_.webp",
-        "detailsPage": "pages/produto.html",
-        "storeLink": "https://s.click.aliexpress.com/e/_DBAdXej"
     }
 ]
